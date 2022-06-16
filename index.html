@@ -9,158 +9,226 @@
 </head>
 
 <body id="home" style="background-color: #000;">
-    <div style="color: #fff;">
-        <h1>Sumário</h1>
-        <p><a href="#SistemaSolar">Sistema Solar</a></p>
-        <p><a href="#TabelaPlanetas">Tabela dos Planetas</a></p>
-        <!-- Página Inicial -->
-        <h2 id="SistemaSolar">Sistema Solar</h2>
-        <!-- Style da minha lista dos planetas -->
-        <style>
-            table,
-            tr,
-            td {
-                border: 3px solid #fff;
-            }
+    <!-- Meus estilos -->
+    <style>
+        /* "table", "tr" e "td" possuem as mesmas regras de estilo */
+        table,
+        tr,
+        td {
+            border: 3px solid #fff;
+        }
 
-            a {
-                color: #fff700;
-            }
-        </style>
-        <!-- Lista dos planetas -->
-        <ul>
-            <li>
-                <!-- Nome do planeta -->
-                <span>Fonte:<a
-                        href="https://www.nasa.gov/feature/goddard/2019/mercurys-spin-and-gravity-reveals-the-planets-inner-solid-core">NASA</a>
-                    <p>
-                        Mercúrio
-                    </p>
-                </span>
-                <!-- Imagem do planeta -->
-                <img src="pasta-img/mercurio.jpg" width="300px" height="300px" alt="mercurio" />
-            </li>
-            <li>
-                <span>Fonte:<a
-                        href="https://www.nasa.gov/image-feature/studying-the-lost-habitable-world-of-venus">NASA</a>
-                    <p>
-                        Vênus
-                    </p>
-                </span>
-                <img src="pasta-img/venus.jpg" width="300px" height="300px" alt="venus" />
-            </li>
-            <li>
-                <span>Fonte: <a href="https://www.nasa.gov/topics/earth/index.html">NASA</a>
-                    <p>
-                        Terra
-                    </p>
-                </span>
-                <img src="pasta-img/terra.jpg" wdith="300px" height="300px" alt="terra" />
-            </li>
-            <li>
-                <span>Fonte:<a
-                        href="https://www.nasa.gov/feature/jpl/nasa-s-insight-still-hunting-marsquakes-as-power-levels-diminish">NASA</a>
-                    <p>
-                        Marte
-                    </p>
-                </span>
-                <img src="pasta-img/marte.jpg" width="300px" height="300px" alt="marte" />
-            </li>
-            <li>
-                <span>Fonte: <a
-                        href="https://www.nasa.gov/feature/jpl/greenland-ice-jupiter-moon-share-similar-feature">NASA</a>
-                    <p>Júpiter</p>
-                </span>
-                <img src="pasta-img/jupiter.jpg" width="300px" height="300px" alt="jupiter" />
-            </li>
-            <li>
-                <span>Fonte: <a
-                        href="https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/saturn_with_titan_pia14922_0.jpg">NASA</a>
-                    <p>
-                        Saturno
-                    </p>
-                </span>
-                <img src="pasta-img/saturno.jpg" width="300px" height="300px" alt="saturno" />
-            </li>
-            <li>
-                <span>Fonte:<a
-                        href="https://earthobservatory.nasa.gov/images/80714/rossing-uranium-mine">NASA</a></span>
-                <p>
-                    Urano
-                </p>
-                <img src="pasta-img/urano.jpg" width="300px" height="300px" alt="urano" />
-            </li>
-            <li>
-                <span>Fonte:<a
-                        href="https://www.nasa.gov/feature/jpl/nasa-finds-neptune-moons-locked-in-dance-of-avoidance/">NASA</a>
-                    <p>
-                        Netuno
-                    </p>
-                </span>
-                <img src="pasta-img/netuno.jpg" width="300px" height="300px" alt="netuno" />
-            </li>
-            <li>
-                <span">Fonte:<a href="https://www.nasa.gov/mission_pages/newhorizons/main/index.html">NASA</a>
-                    <p>Plutão -
-                        <b">É planeta sim!</b>
-                    </p>
-                    <img src="pasta-img/plutao.jpg" width="300px" height="300px" alt="plutao" />
+        td {
+            width: 42%;
+        }
+
+        /* elemento hyperlink */
+        a {
+            color: #fff700;
+        }
+    </style>
+    <!-- Divisória da Página Inicial -->
+    <div style="color: #fff;">
+        <!-- Table of contents-->
+        <h1>Sumário</h1>
+        <!-- Content 1 -->
+        <p><a href="#SistemaSolar">Sistema Solar</a></p>
+        <!-- Content 2 -->
+        <p><a href="#TabelaPlanetas">Tabela dos Planetas</a></p>
+        <!-- A tag "section divide o conteúdo em secções no documento." -->
+        <section id="conteudo1">
+            <!-- Heading 2 -->
+            <h2 id="SistemaSolar">Sistema Solar</h2>
+            <!-- Style da minha lista dos planetas -->
+
+            <!-- Lista sem ordem dos planetas -->
+            <ul>
+                <!-- Item da lista -->
+                <li>
+                    <!-- Fonte da NASA -->
+                    <span>Fonte:<a
+                            href="https://www.nasa.gov/feature/goddard/2019/mercurys-spin-and-gravity-reveals-the-planets-inner-solid-core">NASA</a>
+                        <!-- Nome do Planeta -->
+                        <p>
+                            Mercúrio
+                        </p>
                     </span>
-            </li>
+                    <!-- Imagem do planeta -->
+                    <img src="pasta-img/mercurio.jpg" width="300px" height="300px" alt="mercurio" />
+                </li>
+                <li>
+                    <!-- Fonte da NASA -->
+                    <span>Fonte:<a
+                            href="https://www.nasa.gov/image-feature/studying-the-lost-habitable-world-of-venus">NASA</a>
+                        <!-- Nome do Planeta -->
+                        <p>
+                            Vênus
+                        </p>
+                    </span>
+                    <!-- Imagem do planeta -->
+                    <img src="pasta-img/venus.jpg" width="300px" height="300px" alt="venus" />
+                </li>
+                <li>
+                    <!-- Fonte da NASA -->
+                    <span>Fonte: <a href="https://www.nasa.gov/topics/earth/index.html">NASA</a>
+                        <!-- Nome do Planeta -->
+                        <p>
+                            Terra
+                        </p>
+                    </span>
+                    <!-- Imagem do planeta -->
+                    <img src="pasta-img/terra.jpg" wdith="300px" height="300px" alt="terra" />
+                </li>
+                <li>
+                    <!-- Fonte da NASA -->
+                    <span>Fonte:<a
+                            href="https://www.nasa.gov/feature/jpl/nasa-s-insight-still-hunting-marsquakes-as-power-levels-diminish">NASA</a>
+                        <!-- Nome do Planeta -->
+                        <p>
+                            Marte
+                        </p>
+                    </span>
+                    <!-- Imagem do planeta -->
+                    <img src="pasta-img/marte.jpg" width="300px" height="300px" alt="marte" />
+                </li>
+                <li>
+                    <!-- Fonte da NASA -->
+                    <span>Fonte: <a
+                            href="https://www.nasa.gov/feature/jpl/greenland-ice-jupiter-moon-share-similar-feature">NASA</a>
+                        <!-- Nome do Planeta -->
+                        <p>
+                            Júpiter
+                        </p>
+                    </span>
+                    <!-- Imagem do planeta -->
+                    <img src="pasta-img/jupiter.jpg" width="300px" height="300px" alt="jupiter" />
+                </li>
+                <li>
+                    <!-- Fonte da NASA -->
+                    <span>Fonte: <a
+                            href="https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/saturn_with_titan_pia14922_0.jpg">NASA</a>
+                        <!-- Nome do Planeta -->
+                        <p>
+                            Saturno
+                        </p>
+                    </span>
+                    <!-- Imagem do planeta -->
+                    <img src="pasta-img/saturno.jpg" width="300px" height="300px" alt="saturno" />
+                </li>
+                <li>
+                    <!-- Fonte da NASA -->
+                    <span>Fonte:<a
+                            href="https://earthobservatory.nasa.gov/images/80714/rossing-uranium-mine">NASA</a></span>
+                    <!-- Nome do Planeta -->
+                    <p>
+                        Urano
+                    </p>
+                    <!-- Imagem do planeta -->
+                    <img src="pasta-img/urano.jpg" width="300px" height="300px" alt="urano" />
+                </li>
+                <li>
+                    <!-- Fonte da NASA -->
+                    <span>Fonte:<a
+                            href="https://www.nasa.gov/feature/jpl/nasa-finds-neptune-moons-locked-in-dance-of-avoidance/">NASA</a>
+                        <!-- Nome do Planeta -->
+                        <p>
+                            Netuno
+                        </p>
+                    </span>
+                    <!-- Imagem do planeta -->
+                    <img src="pasta-img/netuno.jpg" width="300px" height="300px" alt="netuno" />
+                </li>
+                <li>
+                    <!-- Fonte da NASA -->
+                    <span">Fonte:<a href="https://www.nasa.gov/mission_pages/newhorizons/main/index.html">NASA</a>
+                        <!-- Nome do Planeta -->
+                        <p>Plutão -
+                            <b">É planeta sim!</b>
+                        </p>
+                        <!-- Imagem do planeta -->
+                        <img src="pasta-img/plutao.jpg" width="300px" height="300px" alt="plutao" />
+                        </span>
+                </li>
+        </section>
+        <!-- A tag "section divide o conteúdo em secções no documento." -->
+        <section id="conteudo2">
+            <!-- Heading 2 -->
             <h2 id="TabelaPlanetas">Tabela dos Planetas</h2>
+            <!-- Tabela -->
             <table style="display: block; margin: 0 auto; width: 50%;">
+                <!-- Linha da tabela -->
                 <tr id="linha1">
+                    <!-- Dados da tabela -->
                     <td style="color: #f78774;">Planeta</td>
                     <td style="color: #7fd3f1;">Massa</td>
                     <td style="color: #d67ff1;">Distância do Sol (km)</td>
                 </tr>
+                <!-- Linha da tabela -->
                 <tr id="linha2">
+                    <!-- Dados da tabela -->
                     <td style="color: #f78774;">Mercúrio</td>
                     <td style="color: #7fd3f1;">3.30 x 10 <sup>23</sup></td>
                     <td style="color: #d67ff1;">57.9 milhões</td>
                 </tr>
+                <!-- Linha da tabela -->
                 <tr id="linha3">
+                    <!-- Dados da tabela -->
                     <td style="color: #f78774;">Vênus</td>
                     <td style="color: #7fd3f1;">4.87 x 10 <sup>24</sup></td>
                     <td style="color: #d67ff1;"">108.2 milhões</td>
                 </tr>
+                <!-- Linha da tabela -->
                 <tr id=" linha4">
+                        <!-- Dados da tabela -->
                     <td style="color: #f78774;">Marte</td>
                     <td style="color: #7fd3f1;">6.42 x 10 <sup>23</sup></td>
                     <td style="color: #d67ff1;">149.6 milhões</td>
                 </tr>
+                <!-- Linha da tabela -->
                 <tr id="linha5">
+                    <!-- Dados da tabela -->
                     <td style="color: #f78774;">Terra</td>
                     <td style="color: #7fd3f1;">5.97 x 10 <sup>24</sup></td>
                     <td style="color: #d67ff1;">227.9 milhões</td>
                 </tr>
+                <!-- Linha da tabela -->
                 <tr id="linha6">
+                    <!-- Dados da tabela -->
                     <td style="color: #f78774;">Júpiter</td>
                     <td style="color: #7fd3f1;">1.90 x 10 <sup>27</sup></td>
                     <td style="color: #d67ff1;">778.3 milhões</td>
                 </tr>
+                <!-- Linha da tabela -->
                 <tr id="linha7">
+                    <!-- Dados da tabela -->
                     <td style="color: #f78774;">Saturno</td>
                     <td style="color: #7fd3f1;">5.68 x 10 <sup>26</sup></td>
                     <td style="color: #d67ff1;">1,427.0 milhões</td>
                 </tr>
+                <!-- Linha da tabela -->
                 <tr id="linha8">
+                    <!-- Dados da tabela -->
                     <td style="color: #f78774;">Urano</td>
                     <td style="color: #7fd3f1;">8.68 x 10 <sup>25</sup></td>
                     <td style="color: #d67ff1;">2,871 milhões</td>
                 </tr>
+                <!-- Linha da tabela -->
                 <tr id="linha9">
+                    <!-- Dados da tabela -->
                     <td style="color: #f78774;">Netuno</td>
                     <td style="color: #7fd3f1;">1.02 x 10 <sup>26</sup></td>
                     <td style="color: #d67ff1;">4,497.1 milhões</td>
                 </tr>
+                <!-- Linha da tabela -->
                 <tr id="linha10">
+                    <!-- Dados da tabela -->
                     <td style="color: #f78774;">Plutão</td>
-                    <td style="color: #7fd3f1;">3.30 x 10 <sup>23</sup></td>
-                    <td style="color: #d67ff1;">Distância 1</td>
+                    <td style="color: #7fd3f1;">1.31 x 10 <sup>22</sup></td>
+                    <td style="color: #d67ff1;">5,906.3 milhões</td>
                 </tr>
             </table>
-        </ul>
+            </ul>
+        </section>
     </div>
 </body>
 
