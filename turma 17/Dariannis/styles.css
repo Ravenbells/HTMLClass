@@ -1,0 +1,121 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: azure;
+    background-color: black;
+    text-decoration: none;
+}
+
+.containernav {
+    display: flex;
+    flex-direction: column;
+}
+
+#contatonav {
+    text-align: end;
+    padding-right: 198px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#linksnav {
+    text-align: end;
+}
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#TituloDesenvolvedora {
+    margin: 0px;
+    font-size: 75px;
+}
+
+.TituloPrincipal, #nombre_titulo_principal {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 2px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    margin-top: 0px;
+    
+}
+
+hr, #lineadecoracion {
+    border: 0px ;
+    border-top: 2px solid orangered;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.Opciones_principales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#Opciones_subtitulo_principales {
+    text-align: center;
+}
+
+.TituloPrincipal, .container_sobre, .container_estudos, .container_projetos, .container_contatos {
+    margin: 60px 0% 50px 9%;
+}
+
+.TituloPrincipal, .subtitulo_sobre, .subtitulo_estudos, .subtitulo_projetos, .subtitulo_contato {
+    width: 100%;
+    display: flex;
+}
+
+.texto_estudos, .item_estudos, .texto_sobre {
+    font-size: 20px;
+}
+
+.texto_sobre {
+    margin-left: 100px;
+}
+
+.texto_estudos {
+   list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    line-height: 100px;
+    margin: 0px;
+}
+
+.item_estudos { 
+    margin-left: 50px;
+}
+
+.Opciones_secundarias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5% 0 5% 0;
+}
+
+#Opciones_subtitulo_secundarias {
+    text-align: center;
+    
+}
+
+.link_contatos {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+.link_space {
+    margin-right: 40px;
+}
+
+footer {
+    text-align: center;
+}
