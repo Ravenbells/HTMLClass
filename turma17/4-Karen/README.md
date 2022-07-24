@@ -17,13 +17,13 @@ Link do seu site neste repositório: https://ravenbells.github.io/HTMLClass/turm
 * ### Coloque suas imagens com 100% de largura.
     - Ao colocar a largura como 100%, a imagem ocupará todo o espaço e vai variar de tamanho dependendo da tela do usuário.
 
-* ### Crie banners com as mesmas medidas
+* ### Crie banners com as mesmas medidas.
     - Facilite o design do seu site colocando todos os banners na mesma medida. Assim não há risco de imagens ficarem muito pixeladas ou borradas com as mesmas regras de elementos html e declarações css.
 
-* ### Indentação
+* ### Indentação.
     - Somente deixe os espaços necessários para indentar, sem ser de mais ou de menos. Isso pode interferir na forma de ler novamente o site e dificultar a manuntenção.
 
-* ### Deixe o formulário com todos os elementos block ou com break:
+* ### Deixe o formulário com todos os elementos block ou com break.
     - Sempre coloque os inputs e etiquetas (labels) em linhas separadas. Usar o css facilita o trabalho, mas é possível usar `<br>` no html para dar este espaçamento e organizar seu formulário.
 
 * ### Evite deixar elementos sem a tag de fechamento.
