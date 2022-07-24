@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --preto: #000;
+    --branco: #fff;
+    --cinza: #dad2d2;
+}
+
+body {
+    background-color: var(--preto);
+}
+#main-content {
+    margin-top: 3em;
+    text-align: center;
+    color: var(--branco);
+}
+
+#main-content .list-item {
+    margin-top: 2em;
+}
+
+#main-content .list-item a {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+#main-content .list-item a:hover {
+    color: var(--cinza);
+}
