@@ -1,3 +1,20 @@
+/* Comente o seu css também! */
+/* Mudança sugerida:
+    Se há classes dentro de um elemento com id,
+    coloque a declaração das classes juntamente com o id.
+ 
+    Exemplo:
+    #ConteudoPrincipal .texto_sobre
+    {
+        color: #000;
+    }
+    #ConteudoPrincipal .texto_estudos
+    {
+        color: #000;
+    }
+*/
+
+/* body */
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
@@ -6,6 +23,8 @@ body {
     background-color: black;
     text-decoration: none;
 }
+
+/* NAVEGAÇÃO */
 
 .containernav {
     display: flex;
@@ -29,6 +48,8 @@ h1 {
     font-weight: 700;
     text-transform: uppercase;
 }
+
+/* Título sobre mim - Desenvolvedora */
 
 #TituloDesenvolvedora {
     margin: 0px;
@@ -54,6 +75,8 @@ hr, #lineadecoracion {
     margin-left: 10px;
 }
 
+/* Opções principais */
+
 .Opciones_principales {
     display: flex;
     flex-direction: row;
@@ -65,19 +88,39 @@ hr, #lineadecoracion {
     text-align: center;
 }
 
+/* Organização de margin nos elementos 
+Título, estudos, projetos e contatos */
+
 .TituloPrincipal, .container_sobre, .container_estudos, .container_projetos, .container_contatos {
     margin: 60px 0% 50px 9%;
 }
+
+/* Organização de largura, fonte e display nos elementos 
+Título, estudos, projetos e contatos */
 
 .TituloPrincipal, .subtitulo_sobre, .subtitulo_estudos, .subtitulo_projetos, .subtitulo_contato {
     width: 100%;
     display: flex;
 }
 
-.texto_estudos, .item_estudos, .texto_sobre {
+.texto_sobre, .texto_estudos, .item_estudos {
     font-size: 20px;
-    width: 50%;
+}
+
+.texto_sobre, .texto_estudos {
     text-align: justify;
+}
+
+.texto_sobre {
+    width: 50%;
+}
+
+.texto_estudos {
+    width: 80%;
+}
+
+.item_estudos {
+    text-align: left;
 }
 
 .texto_sobre {
@@ -96,6 +139,9 @@ hr, #lineadecoracion {
     margin-left: 50px;
 }
 
+
+/* Opções secundárias */
+
 .Opciones_secundarias {
     display: flex;
     flex-direction: row;
@@ -108,6 +154,8 @@ hr, #lineadecoracion {
     
 }
 
+/* Links de contato */
+
 .link_contatos {
     display: flex;
     flex-direction: row;
@@ -117,6 +165,8 @@ hr, #lineadecoracion {
 .link_space {
     margin-right: 40px;
 }
+
+/* Rodapé */
 
 footer {
     text-align: center;
