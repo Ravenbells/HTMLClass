@@ -1,4 +1,8 @@
+
+/* ---------------------------Google Fonts------------- */
 @import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Sans+Narrow:wght@400;700&family=PT+Serif&display=swap');
+
+/* ---------------------------Ajustes------------- */
 
 html,
 body,
@@ -104,6 +108,13 @@ section {
 }
 
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+    font-family: sans-serif;
+    font-size: 100%;
+    display: flex;
+    width: 100%;
+    display: inline;
     line-height: 1;
 }
 
@@ -130,10 +141,15 @@ table {
     border-spacing: 0;
 }
 
-#icoTog {
-    color: coral;
-}
+/* ---------------------------Ajustes Fim------------- */
 
+
+/* ---------------------------Navegação------------- */
+
+.nav {
+    background-color: #707070;
+}
+ 
 .nav-link,
 .navbar-brand {
     color: #7b7b7b;
@@ -168,7 +184,13 @@ table {
     height: 40px;
 }
 
+/* ---------------------------Em desuso------------- */
 
+/* #icoTog {
+    color: coral;
+} */
+
+/* ---------------------------Cabeçalho------------- */
 
 .butHead {
     width: auto;
@@ -195,25 +217,6 @@ table {
     background: linear-gradient(to bottom, #303030, #272727);
 }
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-
-.nav {
-    background-color: #707070;
-}
-
-body {
-    background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
-    font-family: sans-serif;
-    font-size: 100%;
-    display: flex;
-    width: 100%;
-    display: inline;
-}
-
-
 ion-icon {
     color: #3A3A3A;
     font-size: 50px;
@@ -221,6 +224,7 @@ ion-icon {
 }
 
 
+/* ---------------------------Títulos e Texto------------- */
 
 #titPer {
     position: relative;
@@ -262,6 +266,8 @@ ion-icon {
 
 }
 
+/* ---------------------------Responsividade------------- */
+
 @media(max-width:768px) {
     #parPer {
         background: -webkit-linear-gradient(#636363, #707070);
@@ -283,6 +289,7 @@ ion-icon {
     padding: 20px;
 }
 
+/* ---------------------------Formação e Repositório------------- */
 
 #formação {
     font: normal normal 300 35px/45px Segoe UI;
@@ -299,10 +306,16 @@ ion-icon {
     position: relative;
 }
 
+#repositorios {
+    min-height: 100px;
+}
+
 .titulo-conteudo-secundario {
     font: normal normal 300 55px/73px Segoe UI;
     text-align: center;
 }
+
+/* ------------------------Formulário-------------- */
 
 .labelForm {
 
