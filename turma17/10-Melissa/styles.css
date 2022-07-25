@@ -1,0 +1,118 @@
+*{
+  text-align:left;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+/*cabeçalho*/
+
+.cabeçalho{
+  cursor: pointer;
+  background-color: #dfa784;
+  max-width: 1919px;
+  width: 100%;
+  height: 25px;
+  padding: 30px;
+}
+.nav{
+  list-style: none;
+  display: flex;
+  text-align: center;
+  padding: 0%;
+  align-self: auto;
+  justify-content:center;
+  margin-left: auto;
+  line-height: 20px;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+  .img{
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 20px;
+  }
+  .nome{
+    color: rgb(36, 36, 33) ;
+    display: inline-block;
+    align-items: center;
+    margin: 25px;
+  }
+  
+/*conteudo*/
+
+body{
+  min-height: 100vh;
+  line-height: 15px;
+  margin-top: 15px;
+  margin-left: 15px;
+  display: grid;
+  grid-template-columns: none;
+}
+
+/* Valores repetitivos */
+.conteudo, .Formação, .Experiencia, .Projetos, .Contato  {
+  padding: 30px;
+}
+.conteudo h2, .Formação h2, .Experiencia h2, .Projetos h2, .Contato h2 {
+  font-size: 20px;
+}
+.iconegit, .iconeemail, .iconegit, .iconeface {
+  width: 25px;
+  height: 25px;
+}
+.cardp1, .cardp2, .cardp3 {
+  height: 325px;
+  width: 225px;
+  padding: 35px;
+  float: left;
+  margin: 35px;
+}
+
+.conteudo{
+  background-color: #cdcfc4;
+}
+.Formação{
+  background-color: #eacead;
+  margin-block: 20px;
+}
+.Experiencia{
+  background-color: #dfa784;
+  margin-block: 20px;
+
+}
+.Projetos{
+  background-color: #f58d71;
+  padding-left: 30px;
+  margin-block: 20px;
+}
+.Contato{
+  background-color: #87a29e;
+  display: block;
+  align-items: center;
+}
+.contatoicone{
+  width: 20px;
+  height: 20px;
+}
+
+.lista{
+  list-style:none;
+}
+
+/*Cards*/
+.cardp1{
+  background-color: #f8d1b1;
+}
+.cardp2{
+  background-color: #f8d1b1;
+}
+.cardp3{
+  background-color: #f8d1b1;
+}
+.cardimg{
+text-align: left;
+max-height: 100%;
+max-width: 100%;
+
+}
