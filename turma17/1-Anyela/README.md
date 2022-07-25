@@ -9,6 +9,12 @@ Link do seu site neste repositório: https://ravenbells.github.io/HTMLClass/turm
 
 ## Dicas para melhorar: 😺️
 
+* ### Coloque mais conteúdo sobre você.
+    - O site está com uma boa estrutura, mas falta o recheio, e o recheio é você! Coloque imagens suas e seus trabalhos no mundo do desenvolvimento web!
+
+* ### Use Lorem Ipsum se não souber qual conteúdo colocar ainda.
+    - Use um quebra galho chamado Lorem Ipsum. Ele ajuda a preencher espaços no conteúdo para testes e desenvolvimento. É perfeito para quando não se sabe o que fazer com o texto, mas que precisa de modificações prévias.
+
 * ### As imagens não são possíveis de visualização.
     - O site está só com o arquivo index.html, falta as imagens escolhidas na página. Para enviar um código, usar o git pode ser de grande ajuda para que qualquer pessoa veja todo o conteúdo de maneira rápida e simples.
 
