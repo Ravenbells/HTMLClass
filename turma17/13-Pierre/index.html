@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <!-- Charset -->
+    <meta charset="UTF-8">
+    <!-- Compatibilidade IE=edge -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Width Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Título -->
+    <title>Portfolio</title>
+
+</head>
+
+<body>
+    <!-- Navegação -->
+    <nav>
+        <div class="logo">
+            <img src="img/fotoperfil1.PNG">
+        </div>
+        <div class="titulo">
+            <h1 id="nome">
+                Pierre Manes Philistin
+            </h1>
+            <h2 id="formacão">
+                <p>Desenvolvedor Back End</p>
+            </h2>
+        </div>
+
+        <button class="button-menu">&#9776;</button>
+
+        <ul class="menu">
+            <li class="botao">
+                <a href="#sobreMim">Sobre mim</a>
+            </li>
+
+            <li class="botao">
+                <a href="#formacãoAcademica">Formacão academica</a>
+            </li>
+
+            <li class="botao">
+                <a href="#experienciais">Experienciais</a>
+            </li>
+            <li class="botao">
+                <a href="#projetos">Meus projetos</a>
+            </li>
+            <li class="botao">
+                <a href="#contatos">Meus contatos</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Conteúdo -->
+    <main id="conteúdo">
+        <div class="espacoBloco">
+            <h3 id="sobreMim"> Sobre mim</h3>
+            <span>Eu Pierre Manes Philistin de nationalidade haitana, Tenho 45 anos,sou casado há quase 10 anos,
+                cheguei no Brasil em setembro 2018, atualmente eu moro em São Paulo. Estou Estudando Redes de
+                computadores
+                com previsão de me formar em dezembro desse ano. E também estou me formando em Back End na instituicão
+                da
+                Toti.<span><br>
+
+                    <img src="img/Casal.PNG" alt="Nosso Casal">
+                    <p>Minha querida esposa: Tabitha Philistin Destin</p>
+                    <img src="img/Tabitha.PNG" alt="50">
+
+                    <h3 id="formacãoAcademica">Formacão academica</h3>
+                    <ol class="lista">
+                        <li>Curso de Logística 2020 duração 300 horas</li>
+                        <li>Curso de informática básica 2020 duração 40 horas</li>
+                        <li>Cursando Redes de computadores</li>
+                        <li>Desenvolvedor Back End, Com as materiais de: Gerenciamento de projeto, Versionamento de
+                            código
+                            Git, HTML, CSS,
+                            Javascript-teste, Mongo, SQLIte, API</li>
+                    </ol>
+
+                    <section>
+                        <h3 id="experienciais">Experienciais</h3>
+                        <ul class="lista">
+                            <li>Servente de encanador. (8 meses. Consócio EG Santo André) 2021-2022</li>
+                            <li>Pedreiro. (8 meses. Atmot Firm S.A) 01/2018-08/2018</li>
+                            <li>Pedreiro, Motorista, Planejamento e Execução dos Serviços. (14 anos. Empresa Associação
+                                Cristã)
+                                08/2003-31/10/2017</li>
+                        </ul>
+
+                    </section>
+
+                    <br>
+                    <div class="container_reposit" id="listRepos">
+                        <div>
+                            <h3 id="projetos">Meus projetos</h3>
+                            <p id="nomeGitHub"></p>
+                        </div><br>
+                        <div>
+                            <h4>Link dos respectivos Repositórios</h4>
+                            <p id="linkGitHub"></p>
+                        </div>
+                    </div>
+                    <button onclick="github(this)" class=btn type="submit" id="submitBtn"
+                        value="Submit"><b>Listar</b></button>
+        </div>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        <div>Deixe me uma mensagem ou contate me nas minhas redes sociais</div><br>
+
+        <form class="contato" id="myform">
+            <div class="msg"></div><br>
+
+            <label>
+                Data:
+                <input type="date" name="data" id="data" onsubmit='valida()'></input type="submit">
+            </label><br><br>
+
+            <div>
+                <label class="titulo_form" for="nome">NOME:</label><br>
+                <input class="quadro_form" type="text" name="nome" id="nome" onsubmit='valida()'></input type="submit">
+            </div><br>
+
+            <div>
+                <label class="titulo_form" for="email">E-MAIL:</label><br>
+                <input class="quadro_form" type="email" name="email" id="email" onsubmit='valida()'
+                    placeholder="...@seumail.com"></input type="submit">
+            </div><br>
+
+            <div>
+                <label class="titulo_form" for="assunto">ASSUNTO:</label><br>
+                <input class="quadro_form" type="text" name="assunto" id="assunto" onsubmit="valida()"></input
+                    type="submit">
+            </div><br>
+
+            <label class="titulo_form" for="mensagem">MENSAGEM:</label><br>
+            <textarea class="mensagem" name="texto" id="mensagem" cols="49" rows="7" maxlength="100"
+                onsubmit='valida()'>
+            </textarea type="submit"><br>
+        
+            <button onclick="clickedLink()" 
+            class=btn type="submit" id="submitbutton" value="Submit"><b>Enviar</b>
+        </button>
+        </form><br>
+        
+        <h4 id="contatos">Meus contatos</h4><br>
+
+        <div class="email">pierremanesphilistin@gmail.com</div><br>
+
+        <a href="https://www.facebook.com/pierremanes" target="_blan" fel="noopener">
+            <img src="img/facebook.png" width="60" alt="60">
+        </a>
+
+        <a href="https://www.instagram.com/manphil20s77/" target="_blan" fel="noopener">
+            <img src="img/Instagram.jpg" width="30" alt="30">
+        </a>
+
+        <a href="https://www.linkedin.com/in/pierre-manes-philistin-12884a211" target="_blan" fel="noopener">
+            <img src="img/linkedin1.jpg" width="30" alt="30">
+        </a>
+
+        <a href="https://github.com/Philistin" target="_blan" fel="noopener"><img src="img/Github.png" width=60
+                alt="60">
+
+        </a>
+
+        <a href="https://api.whatsapp.com/send?phone=5511992814816" target="_blan" fel="noopener">
+            <img src="img/Whatsapp.png" width="40" height="40">
+        </a>
+
+
+
+        <div class="identificacao">&copy; Philistin</div><br>
+    </footer>
+    <!-- Script JS -->
+   <script src="script.js"></script>
+</body>
+
+</html>
