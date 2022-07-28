@@ -1,0 +1,91 @@
+:root {
+
+    /* Paleta de cores */
+    --preto:#000;
+    --branco:#fff;
+    --vermelho:#ff0000;
+    --azul:#2e1da3;
+    --verde: #094b0a;
+    --laranja: #f37601;
+    --cinza: #ccc;
+    
+
+    /* Fontes do site */
+    --mukta: 'Mukta';
+}
+
+/* body {
+    background-image: url('https://i.pinimg.com/736x/43/19/0d/43190d70f6561f14873fb649f29cffa2.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+    height: 100%;
+} */
+
+/* Tudo no site vai ser alterado a partir do asterisco */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar .icones {
+    color: var(--laranja);
+    font-size: 20px;
+}
+
+/* Conteúdo principal, centralizando texto */
+#mainContent {
+    text-align: center;
+}
+
+/* Deixa o sumário com uma caixa colorida */
+.tableContents {
+    background-color: var(--preto);
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 40%;
+}
+
+.tableContents .title {
+    color:var(--branco);
+}
+
+/* Muda o estilo do sumário */
+.link-sumario {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: var(--mukta);
+    color: var(--branco);
+}
+
+/* Muda de cor o link quando eu passar o mouse */
+.link-sumario:hover {
+    color: var(--cinza);
+}
+
+/* Espaçamento do parágrafo e mais o justificar */
+.listaPaises p {
+    padding: 50px;
+    text-align: justify;
+    color: var(--vermelho);
+}
+
+#VideoFrance {
+    display: none;
+}
+
+.clicar:hover {
+    cursor: pointer;
+    color: var(--azul);
+    font-weight: 700;
+}
+
+/* Deixa as bandeiras centralizadas */
+.flags {
+    margin: 0 auto;
+    display: inline-block;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
