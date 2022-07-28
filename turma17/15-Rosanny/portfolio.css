@@ -1,0 +1,305 @@
+#wrap {
+  width: 1920px;
+  height: auto;
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+
+#Navegação {
+
+  text-align: end;
+  background-color: #E27882;
+  color: #FFFFFF;
+  word-spacing: 5px;
+  padding-inline: 20%;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+
+}
+
+img.Eu {
+  width: 3%;
+  height: auto;
+  border-radius: 50%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.Apresentação {
+  justify-content: flex-end;
+  background-color: #FFFFFF;
+  color: #E27882;
+
+}
+
+.Apresentação a {
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.Apresentação img {
+  width: 80px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.Apresentação p {
+  font-size: 25px;
+  color: #b83862;
+}
+
+.Apresentação .fotoPerfil {
+  max-width: 350px;
+  width: auto;
+  height: auto;
+  display: block;
+}
+
+.Formação {
+
+  background-color: #ED9AA2;
+  color: #FFFFFF;
+
+
+}
+
+.Formação h2 {
+  color: #b83862;
+}
+
+.Experiência {
+  background-color: #F6C8CA;
+  color: #FFFFFF
+}
+
+.Projetos {
+  width: auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #F9E3E6;
+  color: #E27882;
+}
+
+.Projetos h2 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
+}
+
+.Projetos li>a {
+  color: #000;
+}
+
+.Projetos .card {
+
+  position: relative;
+  padding: 10px;
+  width: 300px;
+  margin: 20px;
+  border: 1px;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 5px 5px 50px
+}
+
+.Projetos .card .content {
+  display: inline;
+  padding: 50px;
+  text-align: center;
+
+}
+
+.Projetos .card .content a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #E27882;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  outline: none;
+  margin-top: 20px;
+}
+
+.contato {
+
+  display: grid;
+  align-items: flex-end;
+  background-color: #E27882;
+  color: #FFFFFF;
+  margin: 0;
+  padding-inline: 50px;
+
+}
+
+.contato a {
+  text-decoration: none;
+
+}
+
+.contato .redes {
+  width: 50px;
+  height: 10px;
+  display: block;
+  fill: #721f3b;
+}
+
+.contato .redes:hover {
+  fill: #000;
+}
+
+
+/* Você também pode incluir os ícones por CSS :) */
+
+/* .contato .redes.instagram {
+  background-image: url(img2.html/bxl-instagram.svg);
+}
+
+.contato .redes.facebook {
+  background-image: url(img2.html/bxl-facebook-circle.svg);
+}
+
+.contato .redes.gmail {
+  background-image: url(img2.html/bxl-gmail.svg);
+}
+ */
+
+#form {
+  position: relative;
+  width: 70%;
+  max-width: 50%;
+  font-size: 15px;
+  flex-direction: column;
+
+
+}
+
+#form label,
+#form input,
+#form textarea,
+#form button {
+  display: block;
+  width: 90%;
+}
+
+#form label {
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+#form input,
+#form textarea {
+  width: 300px;
+  height: 30px;
+  font: inherit;
+  padding: 0.8rem;
+  margin-bottom: 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+
+
+}
+
+#form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+
+#form button {
+
+  position: center;
+  display: flex;
+  padding: 10px 20px;
+  background-color: deeppink;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  outline: none;
+  border-color: deeppink;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 110px;
+}
+
+.mensagem {
+  background-color: red;
+  position: relative;
+  width: 70%;
+  max-width: 50%;
+  font-size: 20px;
+  flex-direction: column;
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+}
+
+@media screen and (max-width: 460px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 1.5 em;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 2 em;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 2.5 em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 3 em;
+  }
+}
